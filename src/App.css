@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: center; 
+  background-color: black;
 }
 
 .App-logo {
@@ -35,4 +36,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.thispic {
+  margin-top: 10px;
+  width: 800px;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: rgb(173, 0, 0);
+  border-width: thick;
+}
+
+.thisname {
+  font-weight: 1000;
+  color: rgb(173, 0, 0);
+}
+
+h2, h4 {
+  color: white;
+}
+
+html {
+  background-color: black;
 }
